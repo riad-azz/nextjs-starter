@@ -2,6 +2,16 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Features
+
+This is a very simple starter template and it contains:
+
+- [Husky](https://typicode.github.io/husky/#/) for managing git hooks.
+- [Jest](https://jestjs.io/) very simple and easy to use library for testing.
+- [Prettier](https://prettier.io/) for code formatting and keeping a constant style.
+- SEO meta configs ready (change with your own website info).
+- Folder structure (this is my personal preference).
+
 ## Getting Started
 
 First, run the development server:
