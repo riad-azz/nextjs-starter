@@ -1,10 +1,8 @@
 import { Albert_Sans as MainFont } from "next/font/google";
 import "@/styles/globals.css";
+import { siteMetadata } from "@/config/seo";
 
-export const metadata = {
-  title: "Next.js Template",
-  description: "Made by yours truly riad-azz",
-};
+export const metadata = { ...siteMetadata };
 
 const mainFont = MainFont({ weight: "400", subsets: ["latin"] });
 

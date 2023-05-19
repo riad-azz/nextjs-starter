@@ -1,6 +1,6 @@
 import { siteConfig } from "@/config/site";
 
-export const instagramMetadata = {
+export const siteMetadata = {
   title: "Next.js Template",
   description: siteConfig.description,
   keywords: [],
