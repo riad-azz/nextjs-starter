@@ -1,6 +1,7 @@
-import { Albert_Sans as MainFont } from "next/font/google";
+import { Noto_Sans as MainFont } from "next/font/google";
 import "@/styles/globals.css";
 import { siteMetadata } from "@/config/seo";
+import Provider from "@/components/Provider";
 
 export const metadata = { ...siteMetadata };
 
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={mainFont.className}>
-      <body>{children}</body>
+      <body className="bg-white text-black dark:bg-gray-900 dark:text-white">
+        <Provider>{children}</Provider>
+      </body>
     </html>
   );
 }

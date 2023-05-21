@@ -6,9 +6,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This is a very simple starter template and it contains:
 
-- [Husky](https://typicode.github.io/husky/#/) for managing git hooks.
-- [Jest](https://jestjs.io/) very simple and easy to use library for testing.
-- [Prettier](https://prettier.io/) for code formatting and keeping a constant style.
+- [Husky](https://typicode.github.io/husky/#/) Managing git hooks.
+- [Jest](https://jestjs.io/) Simple and easy to use library for testing.
+- [Prettier](https://prettier.io/) Code formatting and keeping a constant style.
+- [Next-Themes](https://www.npmjs.com/package/next-themes) Dark & Light themes.
 - SEO meta configs ready (change with your own website info).
 - Folder structure (this is my personal preference).
 
