@@ -1,4 +1,4 @@
-# My Next.js 13.4 Starter Template
+# My Next.js Starter Template
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -10,6 +10,7 @@ This is a very simple starter template and it contains:
 - [Jest](https://jestjs.io/) Simple and easy to use library for testing.
 - [Prettier](https://prettier.io/) Code formatting and keeping a constant style.
 - [Next-Themes](https://www.npmjs.com/package/next-themes) Dark & Light themes.
+- Next.js Stable App Router.
 - SEO meta configs ready (change with your own website info).
 - Folder structure (this is my personal preference).
 
