@@ -7,7 +7,7 @@ const ThemeButton = () => {
   return (
     <button
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      className="rounded bg-gray-900 px-2 py-1 text-sm text-white hover:opacity-80 dark:bg-white dark:text-gray-900"
+      className="w-fit rounded bg-gray-900 p-2 text-sm text-white hover:opacity-80 dark:bg-white dark:text-gray-900"
     >
       Toggle Theme
     </button>
