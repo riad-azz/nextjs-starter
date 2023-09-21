@@ -1,6 +1,8 @@
 {
-  "name": "Next.js Template",
-  "short_name": "Next.js Template",
+  "name": "Next.js template",
+  "short_name": "Next.js template",
+  "description": "Next.js starter template",
+  "categories": [],
   "icons": [
     {
       "src": "/images/android-chrome-192x192.png",
@@ -19,7 +21,5 @@
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone",
-  "orientation": "landscape-primary",
-  "description": "Website description",
-  "categories": []
+  "orientation": "landscape-primary"
 }

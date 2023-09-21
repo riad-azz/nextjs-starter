@@ -1,10 +1,9 @@
-import ThemeButton from "@/components/ThemeButton";
+import Greeting from "@/components/Greeting";
 
-export default async function Home() {
+export default function Home() {
   return (
-    <main className="flex flex-col gap-4 p-4 dark:bg-red-600">
-      <h1 className="text-3xl md:text-4xl">Hello Next.js Template!!</h1>
-      <ThemeButton />
+    <main className="p-4">
+      <Greeting />
     </main>
   );
 }

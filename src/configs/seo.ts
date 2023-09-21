@@ -1,7 +1,9 @@
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/configs/site";
+import { Metadata } from "next";
 
-export const siteMetadata = {
-  title: "Next.js Template",
+export const rootMetadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000"),
+  title: siteConfig.name,
   description: siteConfig.description,
   keywords: [],
   authors: [
@@ -13,7 +15,7 @@ export const siteMetadata = {
   creator: "riad-azz",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "#1f2937" },
+    { media: "(prefers-color-scheme: dark)", color: "white" },
   ],
   openGraph: {
     type: "website",
@@ -25,8 +27,8 @@ export const siteMetadata = {
     images: [
       {
         url: siteConfig.ogImageUrl,
-        width: 1200,
-        height: 630,
+        width: 1250,
+        height: 945,
         alt: siteConfig.name,
       },
     ],
@@ -38,10 +40,23 @@ export const siteMetadata = {
     images: [siteConfig.ogImageUrl],
     creator: "@riadazz",
   },
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: "/favicon.ico",
     shortcut: "/images/favicon-32x32.png",
     apple: "/images/apple-touch-icon.png",
   },
-  manifest: "/site.webmanifest",
+  manifest: "/webmanifest.json",
 };

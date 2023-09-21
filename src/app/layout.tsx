@@ -1,11 +1,12 @@
-import { Noto_Sans as MainFont } from "next/font/google";
+import type { Metadata } from "next";
+import { Inter as RootFont } from "next/font/google";
+
 import "@/styles/globals.css";
-import { siteMetadata } from "@/config/seo";
-import Provider from "@/components/Provider";
+import { rootMetadata } from "@/configs/seo";
 
-export const metadata = { ...siteMetadata };
+const rootFont = RootFont({ subsets: ["latin"] });
 
-const mainFont = MainFont({ weight: "400", subsets: ["latin"] });
+export const metadata: Metadata = rootMetadata;
 
 export default function RootLayout({
   children,
@@ -13,10 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={mainFont.className}>
-      <body className="bg-white text-black dark:bg-gray-900 dark:text-white">
-        <Provider>{children}</Provider>
-      </body>
+    <html lang="en">
+      <body className={rootFont.className}>{children}</body>
     </html>
   );
 }

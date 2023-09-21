@@ -2,37 +2,25 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Features
-
-This is a very simple starter template and it contains:
-
-- [Husky](https://typicode.github.io/husky/#/) Managing git hooks.
-- [Jest](https://jestjs.io/) Simple and easy to use library for testing.
-- [Prettier](https://prettier.io/) Code formatting and keeping a constant style.
-- [Next-Themes](https://www.npmjs.com/package/next-themes) Dark & Light themes.
-- Next.js Stable App Router.
-- SEO meta configs ready (change with your own website info).
-- Folder structure (this is my personal preference).
-
 ## Getting Started
 
-install dependencies:
-
-```bash
-npm install
-```
-
-run the development server:
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-run all tests:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-npm test
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
