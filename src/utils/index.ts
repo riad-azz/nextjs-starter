@@ -42,7 +42,7 @@ export const getClientIp = (request: NextRequest) => {
 export const makeHttpRequest = async ({ ...args }: AxiosRequestConfig) => {
   try {
     const response: AxiosResponse = await axios(args);
-    return response.data;
+    return response;
   } catch (error: any) {
     const axiosError: AxiosError = error;
     if (axiosError.response) {
