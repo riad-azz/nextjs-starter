@@ -1,9 +1,9 @@
-import DefaultComponent from "@/components/DefaultComponent";
+import NextJs from "@/components/NextJs";
 
 export default function Home() {
   return (
-    <main className="p-4">
-      <DefaultComponent />
+    <main className="p-2">
+      <NextJs />
     </main>
   );
 }
